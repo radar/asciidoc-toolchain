@@ -1,0 +1,15 @@
+:source-highlighter: pygments
+:numbered!:
+:toc: right
+:toclevels: 2
+:front-cover-image: image:cover.png[width=1050,height=1600]
+
+# Your title goes here
+
+include::frontmatter.ad[]
+
+<<<
+
+:numbered:
+
+include::ch01/ch01.ad[]

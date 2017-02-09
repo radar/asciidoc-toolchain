@@ -1,0 +1,53 @@
+/* Asciidoctor default stylesheet, with modifications from Ryan Bigg | MIT License | http://asciidoctor.org */
+/* Remove the comments around the @import statement below when using this as a custom stylesheet */
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Titillium+Web");
+body {
+  margin: 0 15%;
+  font: 13pt "Titillium Web";
+  color: #232323; }
+
+a {
+  color: #6666ff; }
+
+a:visited {
+  color: #6666ff; }
+
+img {
+  width: 100%; }
+
+code {
+  font-family: "Inconsolata", monospace; }
+
+blockquote {
+  font-style: italic; }
+
+p > code {
+  background: #f8f8f8;
+  font-size: 90%;
+  white-space: nowrap;
+  padding: 5px; }
+
+.listingblock .title {
+  color: #7a2518;
+  font-weight: bold; }
+
+.pygments {
+  overflow: auto;
+  padding: 20px;
+  font-size: 90%; }
+
+.note {
+  margin: 15px 0px; }
+  .note .icon {
+    padding-right: 15px; }
+    .note .icon .title {
+      text-transform: uppercase;
+      font-weight: bold; }
+  .note .content {
+    padding-left: 15px;
+    border-left: 1px solid #eeeeee; }
+    .note .content .title {
+      font-weight: bold;
+      color: #7a2518; }
+
+/*# sourceMappingURL=book.css.map */

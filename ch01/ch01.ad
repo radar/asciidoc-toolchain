@@ -1,0 +1,28 @@
+== Chapter 1
+
+Here's what some text will look like.
+
+Here's a code example. Its source should be highlighted:
+
+[source, ruby]
+.book.rb
+----
+class Book
+  attr_reader :title
+
+  def initialize(title)
+    @title = title
+  end
+end
+----
+
+Here's an image:
+
+image::ch01/images/welcome_aboard.png[]
+
+
+[NOTE]
+.This is a note
+====
+Notes stand out different from the text.
+====
