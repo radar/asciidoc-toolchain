@@ -6,6 +6,7 @@ gem 'rake'
 gem 'rainbow'
 gem 'open4'
 gem 'pry'
+gem 'sass'
 
 group :pdf do
   gem 'asciidoctor-pdf', '~> 1.5.0.alpha.6'
